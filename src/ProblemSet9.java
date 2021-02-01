@@ -1,14 +1,4 @@
 public class ProblemSet9 {
-    public static void main(String args[]) {
-        ProblemSet9 test = new ProblemSet9();
-        int[] arr1 = {10, 3, 5, 6};
-        int[] arr2 = {2, 3, 5};
-        int result = test.outliers(arr1);
-        System.out.println(result);
-//        for (int i : result) {
-//            System.out.println(i);
-//        }
-    }
     public int[] evenOdd(int[] arr) {
         if(arr != null) {
             int[] result = new int[arr.length];
